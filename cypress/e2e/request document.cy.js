@@ -53,7 +53,6 @@ describe('template spec', () => {
   it('Attempting to Proceed Without Requesting Any Document', () => {
     cy.visit('https://reqease.netlify.app/')
     cy.get('.div-44').click()
-    cy.get('#row1increment').click()
-    cy.get('.img-5').eq(1).click()
+    cy.get('.div-391').click()
   })
 })
